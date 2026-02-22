@@ -69,9 +69,9 @@ export default function AboutSection() {
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <TrendingUp className="w-6 h-6 text-primary" />
                 </div>
-                <h4 className="font-bold text-foreground mb-2">Scalable</h4>
+                <h4 className="font-bold text-foreground mb-2">Flexible & Scalable</h4>
                 <p className="text-sm text-muted-foreground">
-                  Scale our involvement up or down based on your hiring needs.
+                  Scale our involvement up or down based on your hiring needs and growth stage.
                 </p>
               </CardContent>
             </Card>
@@ -81,9 +81,9 @@ export default function AboutSection() {
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <Users className="w-6 h-6 text-primary" />
                 </div>
-                <h4 className="font-bold text-foreground mb-2">Expert Team</h4>
+                <h4 className="font-bold text-foreground mb-2">Experienced Team</h4>
                 <p className="text-sm text-muted-foreground">
-                  Access seasoned recruiters with proven track records.
+                  Access seasoned recruiters with proven track records across industries.
                 </p>
               </CardContent>
             </Card>
@@ -93,9 +93,9 @@ export default function AboutSection() {
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <Globe className="w-6 h-6 text-primary" />
                 </div>
-                <h4 className="font-bold text-foreground mb-2">Local Expertise</h4>
+                <h4 className="font-bold text-foreground mb-2">India Market Expertise</h4>
                 <p className="text-sm text-muted-foreground">
-                  Deep understanding of the Indian talent market and culture.
+                  Deep understanding of the Indian talent market, culture, and hiring landscape.
                 </p>
               </CardContent>
             </Card>

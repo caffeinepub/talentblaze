@@ -1,15 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 3,
+  "projectStateVersion": 13,
   "summary": "Website for Talentblaze, a fractional talent acquisition service firm catering to startups in India and global firms setting up operations in India",
   "architectural_notes": [
     "Website for talent acquisition service firm",
     "Target audience: Indian startups and global firms entering India",
     "Business model: Fractional talent acquisition services"
   ],
-  "known_issues": [],
+  "known_issues": [
+    "Website contains untrue/placeholder data",
+    "Contact number should not be displayed in contact section"
+  ],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Professional hero background image showing diverse business professionals collaborating in modern office setting (hero-bg.dim_1920x800.png)\n- Talentblaze logo design with modern, professional aesthetic suitable for B2B services (talentblaze-logo.dim_400x120.png)",
   "existing_features": [
     {
       "id": "feature-create-a-homepage-with-hero-section-introducing-talentblaze-as-a-fractional-talent-acquisition-service-firm-for-startups-in-india-and-global-firms-establishing-operations-in-india",
@@ -50,6 +52,86 @@
         "REQ-6"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-adjust-font-colors-throughout-the-application-to-ensure-sufficient-contrast-with-background-colors-making-text-clearly-readable-in-both-light-and-dark-modes",
+      "title": "Adjust font colors throughout the application to ensure sufficient contrast with background colors, making text clearly readable in both light and dark modes",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-adjust-the-brand-logo-styling-to-blend-properly-with-the-website-s-warm-amber-orange-color-scheme-ensuring-visual-harmony-with-the-hero-section-background-and-overall-theme",
+      "title": "Adjust the brand logo styling to blend properly with the website's warm amber/orange color scheme, ensuring visual harmony with the hero section background and overall theme",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-contact-phone-number-from-the-contactsection-component-keeping-only-email-and-location-contact-information",
+      "title": "Remove the contact phone number from the ContactSection component, keeping only email and location contact information",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-placeholder-or-untrue-data-throughout-the-website-with-accurate-realistic-content-for-talentblaze-s-services-target-markets-value-propositions-and-company-information",
+      "title": "Replace all placeholder or untrue data throughout the website with accurate, realistic content for Talentblaze's services, target markets, value propositions, and company information",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-comprehensive-seo-meta-tags-to-frontend-index-html-including-title-description-keywords-open-graph-tags-and-twitter-card-tags-optimized-for-talentblaze-s-fractional-talent-acquisition-services-targeting-indian-startups-and-global-firms-entering-india",
+      "title": "Add comprehensive SEO meta tags to frontend/index.html including title, description, keywords, Open Graph tags, and Twitter Card tags optimized for Talentblaze's fractional talent acquisition services targeting Indian startups and global firms entering India",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-robots-txt-file-in-frontend-public-allowing-all-search-engine-crawlers-to-index-the-entire-site",
+      "title": "Create a robots.txt file in frontend/public allowing all search engine crawlers to index the entire site",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-structured-data-json-ld-schema-to-frontend-index-html-identifying-talentblaze-as-an-organization-with-relevant-business-information-for-enhanced-google-search-results",
+      "title": "Add structured data (JSON-LD schema) to frontend/index.html identifying Talentblaze as an Organization with relevant business information for enhanced Google search results",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-brand-logo-image-from-the-herosection-component-and-style-the-talentblaze-text-branding-with-an-attractive-color-scheme-that-promotes-the-feeling-of-recruitment-and-talent-acquisition",
+      "title": "Remove the brand logo image from the HeroSection component and style the 'Talentblaze' text branding with an attractive color scheme that promotes the feeling of recruitment and talent acquisition",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-hero-section-s-picture-banner-background-with-icon-based-infographics-that-clearly-showcase-talentblaze-s-key-talent-acquisition-services-and-value-propositions-ensuring-font-and-content-are-clearly-visible-to-end-users",
+      "title": "Replace the hero section's picture banner background with icon-based infographics that clearly showcase Talentblaze's key talent acquisition services and value propositions, ensuring font and content are clearly visible to end users",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-references-to-years-of-experience-throughout-the-website-to-display-12-years-or-12-years-instead-of-the-current-value-ensuring-consistency-across-all-sections-including-about-services-and-any-other-content-areas-where-experience-is-mentioned",
+      "title": "Update all references to years of experience throughout the website to display '12 years' or '12+ years' instead of the current value, ensuring consistency across all sections including About, Services, and any other content areas where experience is mentioned",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -65,6 +147,42 @@
       "reqIds": [
         "REQ-5"
       ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Replace untrue/placeholder data with accurate content",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Remove contact number from contact section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add proper SEO meta tags for Google search indexing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Remove brand logo and style Talentblaze text with attractive recruitment-themed color scheme",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Replace hero section picture banner with infographics showcasing services and content clearly",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Update years of experience to 12 years throughout the website",
+      "reqIds": [],
       "status": "pending"
     }
   ],

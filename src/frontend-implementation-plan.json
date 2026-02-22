@@ -1,111 +1,36 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Talentblaze Fractional Talent Acquisition Service Website",
+  "title": "Update years of experience to 12 years",
   "requirements": [
     {
-      "id": "REQ-1",
-      "summary": "Create homepage with hero section introducing Talentblaze",
+      "id": "REQ-16",
+      "summary": "Update all references to years of experience throughout the website to display '12 years' or '12+ years' instead of the current value",
       "acceptanceCriteria": [
-        "Hero section displays Talentblaze branding prominently",
-        "Clear value proposition for startups in India and global firms",
-        "Professional, business-oriented design"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/HeroSection.tsx",
-          "operation": "create",
-          "description": "Create hero section component featuring Talentblaze branding with value proposition for Indian startups and global firms. Use generated hero background image at frontend/public/assets/generated/hero-bg.dim_1920x800.png and logo at frontend/public/assets/generated/talentblaze-logo.dim_400x120.png as static assets."
-        },
-        {
-          "path": "frontend/src/App.tsx",
-          "operation": "modify",
-          "description": "Wire HeroSection component into the main App component at the top of the page layout."
-        }
-      ]
-    },
-    {
-      "id": "REQ-2",
-      "summary": "Create About section explaining fractional talent acquisition model",
-      "acceptanceCriteria": [
-        "Explains fractional talent acquisition concept clearly",
-        "Highlights benefits for startups and global firms",
-        "Professional tone appropriate for B2B services"
+        "All mentions of years of experience across the website display '12 years' or '12+ years'",
+        "The update is consistent across all components and sections",
+        "No placeholder or conflicting experience values remain in the codebase"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/AboutSection.tsx",
-          "operation": "create",
-          "description": "Create About section component explaining the fractional talent acquisition model with clear benefits for Indian startups and global firms establishing operations in India. Maintain professional B2B tone."
-        },
-        {
-          "path": "frontend/src/App.tsx",
           "operation": "modify",
-          "description": "Wire AboutSection component into App below HeroSection."
-        }
-      ]
-    },
-    {
-      "id": "REQ-3",
-      "summary": "Create Services section outlining talent acquisition offerings",
-      "acceptanceCriteria": [
-        "Lists core service offerings",
-        "Clearly differentiates services for each target segment",
-        "Includes visual elements to enhance readability"
-      ],
-      "file_operations": [
+          "description": "Update any references to years of experience in the About section content to display '12 years' or '12+ years', ensuring consistency with the fractional talent acquisition messaging and value proposition cards"
+        },
         {
           "path": "frontend/src/components/ServicesSection.tsx",
-          "operation": "create",
-          "description": "Create Services section component listing core talent acquisition offerings with clear differentiation for Indian startups and global firms. Include visual elements such as icons or cards to enhance readability."
+          "operation": "modify",
+          "description": "Update any references to years of experience in the Services section, including core recruitment services and specialized offerings descriptions, to display '12 years' or '12+ years'"
         },
         {
-          "path": "frontend/src/App.tsx",
+          "path": "frontend/src/components/HeroSection.tsx",
           "operation": "modify",
-          "description": "Wire ServicesSection component into App below AboutSection."
-        }
-      ]
-    },
-    {
-      "id": "REQ-4",
-      "summary": "Create Contact section with contact form for client inquiries",
-      "acceptanceCriteria": [
-        "Contact form captures name, email, company, and message",
-        "Form submission stores inquiries in backend",
-        "Success confirmation displayed after submission"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ContactSection.tsx",
-          "operation": "create",
-          "description": "Create Contact section component with a form capturing name, email, company name, and inquiry message. Call backend submitContactRequest method on form submission and display success confirmation. Handle form validation and loading states."
+          "description": "Update any references to years of experience in the hero section tagline or content to display '12 years' or '12+ years', maintaining the gradient-styled heading and CTA button functionality"
         },
         {
-          "path": "frontend/src/App.tsx",
+          "path": "frontend/index.html",
           "operation": "modify",
-          "description": "Wire ContactSection component into App below ServicesSection."
-        }
-      ]
-    },
-    {
-      "id": "REQ-6",
-      "summary": "Apply professional, modern visual theme with warm colors and clean typography",
-      "acceptanceCriteria": [
-        "Consistent color palette using warm, professional tones",
-        "Typography hierarchy enhances readability",
-        "Layout maintains visual coherence across all sections",
-        "Design conveys trust and professionalism for business clients"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/index.css",
-          "operation": "modify",
-          "description": "Define global styles with warm, trustworthy color palette (avoiding blue and purple), professional typography hierarchy, and cohesive spacing patterns suitable for B2B brand."
-        },
-        {
-          "path": "frontend/tailwind.config.js",
-          "operation": "modify",
-          "description": "Configure Tailwind theme with warm color palette (e.g., amber, orange, warm grays), professional font families, and consistent spacing scale to support the B2B visual identity."
+          "description": "Update any references to years of experience in the SEO meta tags, Open Graph descriptions, Twitter Card content, or JSON-LD structured data to display '12 years' or '12+ years' for consistency across all metadata"
         }
       ]
     }

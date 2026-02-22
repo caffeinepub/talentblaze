@@ -11,10 +11,10 @@ export default function Footer() {
       <div className="container px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-sm text-muted-foreground">
+            <div className="text-sm text-foreground/70">
               © {currentYear} Talentblaze. All rights reserved.
             </div>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2 text-sm text-foreground/70">
               <span>Built with</span>
               <Heart className="w-4 h-4 text-primary fill-primary" />
               <span>using</span>

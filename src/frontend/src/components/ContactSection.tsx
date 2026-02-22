@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Mail, Phone, MapPin, Loader2, CheckCircle2 } from 'lucide-react';
+import { Mail, MapPin, Loader2, CheckCircle2 } from 'lucide-react';
 import { useSubmitContactRequest } from '../hooks/useQueries';
 
 export default function ContactSection() {
@@ -51,7 +51,7 @@ export default function ContactSection() {
               <span className="block text-primary mt-2">Dream Team Together</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Ready to transform your hiring process? Get in touch and let's discuss how we can help.
+              Ready to transform your hiring process? Reach out and let's discuss how fractional talent acquisition can accelerate your growth.
             </p>
           </div>
 
@@ -66,21 +66,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                      <p className="text-sm text-muted-foreground">hello@talentblaze.in</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                      <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-sm text-foreground/80">hello@talentblaze.in</p>
                     </div>
                   </div>
                 </CardContent>
@@ -94,7 +80,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Location</h4>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-foreground/80">
                         Bangalore, Karnataka
                         <br />
                         India

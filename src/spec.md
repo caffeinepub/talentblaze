@@ -1,14 +1,10 @@
 # Specification
 
 ## Summary
-**Goal:** Create a professional website for Talentblaze, a fractional talent acquisition service firm targeting startups in India and global firms establishing operations in India.
+**Goal:** Update all references to years of experience throughout the website to display 12 years.
 
 **Planned changes:**
-- Build homepage with hero section introducing Talentblaze and its value proposition
-- Create About section explaining the fractional talent acquisition model
-- Add Services section outlining key offerings for Indian startups and global firms
-- Implement Contact section with form for client inquiries
-- Set up backend storage for contact form submissions with name, email, company, message, and timestamp
-- Apply professional, modern design theme with warm, trustworthy colors (avoiding blue and purple)
+- Update experience value to "12 years" or "12+ years" across all components and sections
+- Ensure consistency in About, Services, and any other areas mentioning experience
 
-**User-visible outcome:** Visitors can learn about Talentblaze's fractional talent acquisition services, understand how they serve startups and global firms in India, and submit contact inquiries through a professional B2B website.
+**User-visible outcome:** All mentions of years of experience throughout the website now display "12 years" or "12+ years" consistently.

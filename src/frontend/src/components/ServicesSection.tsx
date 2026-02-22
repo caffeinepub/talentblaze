@@ -17,54 +17,54 @@ export default function ServicesSection() {
       icon: Search,
       title: 'End-to-End Recruitment',
       description:
-        'Full-cycle recruitment from job description creation to offer acceptance. We handle sourcing, screening, interviewing, and closing.',
+        'Full-cycle recruitment from job description creation to offer acceptance. We handle sourcing, screening, interviewing, and closing candidates.',
     },
     {
       icon: Briefcase,
       title: 'Talent Strategy Consulting',
       description:
-        'Strategic guidance on hiring plans, compensation benchmarking, and building your employer brand in the Indian market.',
+        'Strategic guidance on hiring plans, compensation benchmarking, and building your employer brand in the competitive Indian market.',
     },
     {
       icon: FileText,
       title: 'Process Optimization',
       description:
-        'Design and implement efficient hiring processes, interview frameworks, and evaluation criteria tailored to your needs.',
+        'Design and implement efficient hiring processes, structured interview frameworks, and evaluation criteria tailored to your company culture.',
     },
     {
       icon: MessageSquare,
       title: 'Candidate Experience',
       description:
-        'Create exceptional candidate experiences that strengthen your employer brand and improve offer acceptance rates.',
+        'Create exceptional candidate experiences that strengthen your employer brand and significantly improve offer acceptance rates.',
     },
     {
       icon: Award,
       title: 'Executive Search',
       description:
-        'Specialized search for senior leadership and critical roles requiring deep market knowledge and discretion.',
+        'Specialized search for senior leadership and critical roles requiring deep market knowledge, discretion, and executive-level networks.',
     },
     {
       icon: BarChart,
       title: 'Hiring Analytics',
       description:
-        'Data-driven insights on your hiring funnel, time-to-hire, and recruitment ROI to continuously improve outcomes.',
+        'Data-driven insights on your hiring funnel, time-to-hire metrics, and recruitment ROI to continuously improve hiring outcomes.',
     },
   ];
 
   const startupServices = [
     'Rapid team scaling for growth stages',
-    'Startup-friendly pricing models',
+    'Startup-friendly flexible pricing models',
     'Founder-level strategic partnership',
-    'Tech talent specialization',
-    'Equity compensation guidance',
+    'Tech and product talent specialization',
+    'Equity compensation structuring guidance',
   ];
 
   const globalServices = [
-    'India market entry support',
-    'Compliance and legal guidance',
-    'Cultural integration consulting',
-    'Remote team building expertise',
-    'Global-local hybrid models',
+    'India market entry and setup support',
+    'Employment compliance and legal guidance',
+    'Cultural integration and onboarding consulting',
+    'Remote and hybrid team building expertise',
+    'Global-local talent strategy alignment',
   ];
 
   return (
@@ -78,7 +78,7 @@ export default function ServicesSection() {
               <span className="block text-primary mt-2">Acquisition Services</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              From strategy to execution, we provide everything you need to build exceptional teams.
+              From strategy to execution, we provide everything you need to build exceptional teams in India.
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function ServicesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Specialized support for fast-growing Indian startups navigating rapid scaling challenges.
+                  Specialized support for fast-growing Indian startups navigating rapid scaling challenges and competitive talent markets.
                 </p>
                 <ul className="space-y-3">
                   {startupServices.map((service, index) => (
@@ -151,7 +151,7 @@ export default function ServicesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Expert guidance for international companies establishing or expanding operations in India.
+                  Expert guidance for international companies establishing or expanding operations in India's dynamic talent ecosystem.
                 </p>
                 <ul className="space-y-3">
                   {globalServices.map((service, index) => (

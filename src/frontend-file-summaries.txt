@@ -1,11 +1,13 @@
 {
   "frontend/src/App.tsx": "Main application component that composes all sections (Hero, About, Services, Contact, Footer) into a single-page layout.",
-  "frontend/src/components/HeroSection.tsx": "Hero section featuring Talentblaze branding, value proposition, CTA buttons, and trust indicators with background image overlay.",
-  "frontend/src/components/AboutSection.tsx": "About section explaining fractional talent acquisition model with value propositions displayed in card grid layout.",
-  "frontend/src/components/ServicesSection.tsx": "Services section showcasing core offerings and specialized services for Indian startups and global firms entering India.",
-  "frontend/src/components/ContactSection.tsx": "Contact section with form for client inquiries, contact information cards, and success state handling using backend integration.",
-  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with \"Talentblaze\" text styled in a gradient using warm amber/orange recruitment colors, featuring icon-based infographic background elements and trust indicators showing 12+ years of experience.",
+  "frontend/src/components/AboutSection.tsx": "About section explaining fractional talent acquisition model with updated value proposition card for \"Flexible & Scalable\" and refined \"India Market Expertise\" to better reflect Talentblaze's positioning.",
+  "frontend/src/components/ServicesSection.tsx": "Services section showcasing core offerings with refined descriptions emphasizing practical value delivery, and updated specialized services for Indian startups and global firms with more accurate service details.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with phone number card removed, displaying only email and location contact information in a two-card layout, with updated descriptive copy encouraging engagement.",
+  "frontend/src/components/Footer.tsx": "Footer component with enhanced text contrast using foreground/70 for copyright and attribution text instead of muted-foreground for better visibility against the footer background.",
   "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including contact form submission and retrieval of contact requests.",
-  "frontend/src/index.css": "Global styles with warm amber/orange OKLCH color palette for both light and dark modes, avoiding typical blue/purple AI aesthetics.",
-  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, extended color tokens, custom border radius values, and enhanced shadow utilities."
+  "frontend/src/index.css": "Global styles with improved OKLCH color system featuring enhanced contrast ratios for muted-foreground in both light (0.35 lightness) and dark (0.75 lightness) modes to meet WCAG AA standards while maintaining the warm amber/orange palette.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, extended color tokens, custom border radius values, and enhanced shadow utilities.",
+  "frontend/index.html": "HTML entry point with comprehensive SEO meta tags including description, keywords, Open Graph tags for social media sharing, Twitter Card tags, canonical URL, and JSON-LD structured data schema identifying Talentblaze as an Organization for enhanced Google search results.",
+  "frontend/public/robots.txt": "Robots.txt file allowing all search engine crawlers to index the entire Talentblaze site without restrictions."
 }
