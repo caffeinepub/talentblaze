@@ -1,36 +1,58 @@
 {
   "kind": "build_request",
-  "title": "Update years of experience to 12 years",
+  "title": "Add complementary background and update email to hellotalentblaze@yahoo.com",
   "projectName": "Talentblaze",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-16",
-      "text": "Update all references to years of experience throughout the website to display '12 years' or '12+ years' instead of the current value, ensuring consistency across all sections including About, Services, and any other content areas where experience is mentioned",
+      "id": "REQ-17",
+      "text": "Add a visually appealing background throughout the website that complements the warm amber/orange color scheme and enhances the professional B2B service brand aesthetic without overwhelming the content",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-user-background-request"
         ],
         "quotes": [
-          "change the years of experience to 12 years of experience"
+          "add some background which blends nicely with the content of the website"
         ]
       },
       "acceptanceCriteria": [
-        "All mentions of years of experience across the website display '12 years' or '12+ years'",
-        "The update is consistent across all components and sections",
-        "No placeholder or conflicting experience values remain in the codebase"
+        "Background is applied consistently across all sections (Hero, About, Services, Contact)",
+        "Background complements the existing warm amber/orange theme",
+        "Content remains clearly readable with sufficient contrast",
+        "Background enhances rather than distracts from the professional service brand presentation"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Update the email contact information in the ContactSection component to display 'hellotalentblaze@yahoo.com' instead of the current email address",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-email-request"
+        ],
+        "quotes": [
+          "add \"hellotalentblaze@yahoo.com\" under email section"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Email displayed in ContactSection shows 'hellotalentblaze@yahoo.com'",
+        "Email remains properly formatted and clickable as a mailto link",
+        "Change is visible in the contact card that displays email information"
       ]
     }
   ],
   "constraints": [
-    "Only update experience values; do not modify other content or styling",
-    "Maintain existing component structure and layout"
+    "Maintain the existing warm amber/orange color scheme",
+    "Preserve all immutable frontend paths including UI components and hooks",
+    "Keep the single-actor backend architecture unchanged",
+    "Ensure sufficient text contrast for accessibility"
   ],
   "nonGoals": [
-    "Adding new sections or features",
-    "Changing the visual design or color scheme",
-    "Modifying backend functionality"
+    "Changing the overall layout or structure of sections",
+    "Modifying the contact form functionality or backend logic",
+    "Altering the existing SEO meta tags or structured data",
+    "Changing other contact information beyond the email address"
   ],
   "imageRequirements": {
     "required": [],

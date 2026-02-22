@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 13,
+  "projectStateVersion": 15,
   "summary": "Website for Talentblaze, a fractional talent acquisition service firm catering to startups in India and global firms setting up operations in India",
   "architectural_notes": [
     "Website for talent acquisition service firm",
@@ -132,6 +132,22 @@
         "REQ-16"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-add-a-visually-appealing-background-throughout-the-website-that-complements-the-warm-amber-orange-color-scheme-and-enhances-the-professional-b2b-service-brand-aesthetic-without-overwhelming-the-content",
+      "title": "Add a visually appealing background throughout the website that complements the warm amber/orange color scheme and enhances the professional B2B service brand aesthetic without overwhelming the content",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-email-contact-information-in-the-contactsection-component-to-display-hellotalentblaze-yahoo-com-instead-of-the-current-email-address",
+      "title": "Update the email contact information in the ContactSection component to display 'hellotalentblaze@yahoo.com' instead of the current email address",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -182,6 +198,18 @@
     {
       "id": "AR-13",
       "summary": "Update years of experience to 12 years throughout the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Add visually appealing background that complements website content",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Update email section to display hellotalentblaze@yahoo.com",
       "reqIds": [],
       "status": "pending"
     }

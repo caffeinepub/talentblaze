@@ -1,12 +1,12 @@
 {
-  "frontend/src/App.tsx": "Main application component that composes all sections (Hero, About, Services, Contact, Footer) into a single-page layout.",
+  "frontend/src/App.tsx": "Main application component that composes all sections (Hero, About, Services, Contact, Footer) into a single-page layout with background styling applied at the body level.",
   "frontend/src/components/HeroSection.tsx": "Hero section with \"Talentblaze\" text styled in a gradient using warm amber/orange recruitment colors, featuring icon-based infographic background elements and trust indicators showing 12+ years of experience.",
   "frontend/src/components/AboutSection.tsx": "About section explaining fractional talent acquisition model with updated value proposition card for \"Flexible & Scalable\" and refined \"India Market Expertise\" to better reflect Talentblaze's positioning.",
   "frontend/src/components/ServicesSection.tsx": "Services section showcasing core offerings with refined descriptions emphasizing practical value delivery, and updated specialized services for Indian startups and global firms with more accurate service details.",
-  "frontend/src/components/ContactSection.tsx": "Contact section with phone number card removed, displaying only email and location contact information in a two-card layout, with updated descriptive copy encouraging engagement.",
+  "frontend/src/components/ContactSection.tsx": "Contact section displaying email (hellotalentblaze@yahoo.com) and location contact information in a two-card layout, with a contact form and updated descriptive copy encouraging engagement.",
   "frontend/src/components/Footer.tsx": "Footer component with enhanced text contrast using foreground/70 for copyright and attribution text instead of muted-foreground for better visibility against the footer background.",
   "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including contact form submission and retrieval of contact requests.",
-  "frontend/src/index.css": "Global styles with improved OKLCH color system featuring enhanced contrast ratios for muted-foreground in both light (0.35 lightness) and dark (0.75 lightness) modes to meet WCAG AA standards while maintaining the warm amber/orange palette.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring warm amber/orange palette and subtle diagonal gradient backgrounds for both light and dark modes that complement the professional B2B service brand aesthetic.",
   "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, extended color tokens, custom border radius values, and enhanced shadow utilities.",
   "frontend/index.html": "HTML entry point with comprehensive SEO meta tags including description, keywords, Open Graph tags for social media sharing, Twitter Card tags, canonical URL, and JSON-LD structured data schema identifying Talentblaze as an Organization for enhanced Google search results.",
   "frontend/public/robots.txt": "Robots.txt file allowing all search engine crawlers to index the entire Talentblaze site without restrictions."

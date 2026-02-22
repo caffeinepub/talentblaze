@@ -72,8 +72,32 @@
         @apply border-border;
     }
     body {
-        @apply bg-background text-foreground;
+        @apply text-foreground;
         font-feature-settings: "rlig" 1, "calt" 1;
+        /* Subtle warm gradient background */
+        background: linear-gradient(
+            135deg,
+            oklch(0.99 0.01 45) 0%,
+            oklch(0.98 0.02 40) 25%,
+            oklch(0.97 0.015 50) 50%,
+            oklch(0.98 0.02 35) 75%,
+            oklch(0.99 0.01 45) 100%
+        );
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+    
+    .dark body {
+        /* Dark mode gradient with warm undertones */
+        background: linear-gradient(
+            135deg,
+            oklch(0.12 0.015 45) 0%,
+            oklch(0.14 0.02 40) 25%,
+            oklch(0.13 0.018 50) 50%,
+            oklch(0.14 0.02 35) 75%,
+            oklch(0.12 0.015 45) 100%
+        );
+        background-attachment: fixed;
     }
 }
 

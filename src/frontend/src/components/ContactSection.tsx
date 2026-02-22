@@ -66,7 +66,12 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                      <p className="text-sm text-foreground/80">hello@talentblaze.in</p>
+                      <a 
+                        href="mailto:hellotalentblaze@yahoo.com" 
+                        className="text-sm text-foreground/80 hover:text-primary transition-colors"
+                      >
+                        hellotalentblaze@yahoo.com
+                      </a>
                     </div>
                   </div>
                 </CardContent>

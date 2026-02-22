@@ -1,36 +1,43 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update years of experience to 12 years",
+  "title": "Add complementary background and update email to hellotalentblaze@yahoo.com",
   "requirements": [
     {
-      "id": "REQ-16",
-      "summary": "Update all references to years of experience throughout the website to display '12 years' or '12+ years' instead of the current value",
+      "id": "REQ-17",
+      "summary": "Add a visually appealing background throughout the website that complements the warm amber/orange color scheme and enhances professional B2B service brand aesthetic",
       "acceptanceCriteria": [
-        "All mentions of years of experience across the website display '12 years' or '12+ years'",
-        "The update is consistent across all components and sections",
-        "No placeholder or conflicting experience values remain in the codebase"
+        "Background is applied consistently across all sections (Hero, About, Services, Contact)",
+        "Background complements the existing warm amber/orange theme",
+        "Content remains clearly readable with sufficient contrast",
+        "Background enhances rather than distracts from the professional service brand presentation"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/AboutSection.tsx",
+          "path": "frontend/src/index.css",
           "operation": "modify",
-          "description": "Update any references to years of experience in the About section content to display '12 years' or '12+ years', ensuring consistency with the fractional talent acquisition messaging and value proposition cards"
+          "description": "Add background styling using subtle gradient patterns and warm tones that complement the existing OKLCH amber/orange color system. Apply background to body element with appropriate fallback colors. Ensure sufficient contrast ratios are maintained for text readability across all theme variants."
         },
         {
-          "path": "frontend/src/components/ServicesSection.tsx",
+          "path": "frontend/src/App.tsx",
           "operation": "modify",
-          "description": "Update any references to years of experience in the Services section, including core recruitment services and specialized offerings descriptions, to display '12 years' or '12+ years'"
-        },
+          "description": "Update the main application wrapper to ensure the background styling flows consistently across all composed sections (Hero, About, Services, Contact, Footer). Add any necessary container classes or structural adjustments to support the global background treatment."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Update email contact information to hellotalentblaze@yahoo.com in ContactSection",
+      "acceptanceCriteria": [
+        "Email displayed in ContactSection shows 'hellotalentblaze@yahoo.com'",
+        "Email remains properly formatted and clickable as a mailto link",
+        "Change is visible in the contact card that displays email information"
+      ],
+      "file_operations": [
         {
-          "path": "frontend/src/components/HeroSection.tsx",
+          "path": "frontend/src/components/ContactSection.tsx",
           "operation": "modify",
-          "description": "Update any references to years of experience in the hero section tagline or content to display '12 years' or '12+ years', maintaining the gradient-styled heading and CTA button functionality"
-        },
-        {
-          "path": "frontend/index.html",
-          "operation": "modify",
-          "description": "Update any references to years of experience in the SEO meta tags, Open Graph descriptions, Twitter Card content, or JSON-LD structured data to display '12 years' or '12+ years' for consistency across all metadata"
+          "description": "Update the email address displayed in the contact card from the current value to 'hellotalentblaze@yahoo.com'. Ensure the mailto link is updated accordingly and the email remains properly formatted and accessible."
         }
       ]
     }
