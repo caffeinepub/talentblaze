@@ -1,0 +1,100 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-homepage-with-hero-section-introducing-talentblaze-as-a-fractional-talent-acquisition-service-firm-for-startups-in-india-and-global-firms-establishing-operations-in-india",
+      "featureTitle": "Create a homepage with hero section introducing Talentblaze as a fractional talent acquisition service firm for startups in India and global firms establishing operations in India",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-section-explaining-the-fractional-talent-acquisition-model-and-how-talentblaze-serves-its-target-markets",
+      "featureTitle": "Create an About section explaining the fractional talent acquisition model and how Talentblaze serves its target markets",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-services-section-outlining-key-talent-acquisition-offerings-relevant-to-indian-startups-and-global-firms-entering-india",
+      "featureTitle": "Create a Services section outlining key talent acquisition offerings relevant to Indian startups and global firms entering India",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ServicesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-section-with-a-contact-form-for-potential-clients-to-reach-talentblaze",
+      "featureTitle": "Create a Contact section with a contact form for potential clients to reach Talentblaze",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-professional-modern-visual-theme-with-warm-trustworthy-colors-avoiding-blue-and-purple-clean-typography-suitable-for-a-b2b-service-brand-and-cohesive-spacing-and-layout-patterns-throughout-all-sections",
+      "featureTitle": "Apply a professional, modern visual theme with warm, trustworthy colors (avoiding blue and purple), clean typography suitable for a B2B service brand, and cohesive spacing and layout patterns throughout all sections",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

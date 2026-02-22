@@ -1,0 +1,117 @@
+{
+  "kind": "build_request",
+  "title": "Create Talentblaze talent acquisition service website",
+  "projectName": "Talentblaze",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a homepage with hero section introducing Talentblaze as a fractional talent acquisition service firm for startups in India and global firms establishing operations in India",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "create website of a fractional talent acquisition service firm by the name Talentblaze catering to startups in India and global firms trying to setup their firms in India"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays Talentblaze branding prominently",
+        "Clear value proposition for startups in India and global firms",
+        "Professional, business-oriented design"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About section explaining the fractional talent acquisition model and how Talentblaze serves its target markets",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Explains fractional talent acquisition concept clearly",
+        "Highlights benefits for startups and global firms",
+        "Professional tone appropriate for B2B services"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Services section outlining key talent acquisition offerings relevant to Indian startups and global firms entering India",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Lists core service offerings",
+        "Clearly differentiates services for each target segment",
+        "Includes visual elements to enhance readability"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a Contact section with a contact form for potential clients to reach Talentblaze",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form captures name, email, company, and message",
+        "Form submission stores inquiries in backend",
+        "Success confirmation displayed after submission"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Implement backend storage for contact form submissions with fields for name, email, company name, and inquiry message",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend stores contact inquiries persistently",
+        "Supports retrieval of stored inquiries",
+        "Data structure includes timestamp for each inquiry"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Apply a professional, modern visual theme with warm, trustworthy colors (avoiding blue and purple), clean typography suitable for a B2B service brand, and cohesive spacing and layout patterns throughout all sections",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Consistent color palette using warm, professional tones",
+        "Typography hierarchy enhances readability",
+        "Layout maintains visual coherence across all sections",
+        "Design conveys trust and professionalism for business clients"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "User authentication or login functionality",
+    "Job board or applicant tracking features",
+    "Payment processing",
+    "Multi-language support",
+    "Real-time chat or messaging"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional hero background image showing diverse business professionals collaborating in modern office setting (hero-bg.dim_1920x800.png)",
+      "Talentblaze logo design with modern, professional aesthetic suitable for B2B services (talentblaze-logo.dim_400x120.png)"
+    ],
+    "edits": []
+  }
+}

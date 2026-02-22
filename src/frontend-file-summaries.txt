@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that composes all sections (Hero, About, Services, Contact, Footer) into a single-page layout.",
+  "frontend/src/components/HeroSection.tsx": "Hero section featuring Talentblaze branding, value proposition, CTA buttons, and trust indicators with background image overlay.",
+  "frontend/src/components/AboutSection.tsx": "About section explaining fractional talent acquisition model with value propositions displayed in card grid layout.",
+  "frontend/src/components/ServicesSection.tsx": "Services section showcasing core offerings and specialized services for Indian startups and global firms entering India.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with form for client inquiries, contact information cards, and success state handling using backend integration.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including contact form submission and retrieval of contact requests.",
+  "frontend/src/index.css": "Global styles with warm amber/orange OKLCH color palette for both light and dark modes, avoiding typical blue/purple AI aesthetics.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, extended color tokens, custom border radius values, and enhanced shadow utilities."
+}

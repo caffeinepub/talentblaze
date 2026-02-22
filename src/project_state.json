@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Website for Talentblaze, a fractional talent acquisition service firm catering to startups in India and global firms setting up operations in India",
+  "architectural_notes": [
+    "Website for talent acquisition service firm",
+    "Target audience: Indian startups and global firms entering India",
+    "Business model: Fractional talent acquisition services"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional hero background image showing diverse business professionals collaborating in modern office setting (hero-bg.dim_1920x800.png)\n- Talentblaze logo design with modern, professional aesthetic suitable for B2B services (talentblaze-logo.dim_400x120.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-with-hero-section-introducing-talentblaze-as-a-fractional-talent-acquisition-service-firm-for-startups-in-india-and-global-firms-establishing-operations-in-india",
+      "title": "Create a homepage with hero section introducing Talentblaze as a fractional talent acquisition service firm for startups in India and global firms establishing operations in India",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-section-explaining-the-fractional-talent-acquisition-model-and-how-talentblaze-serves-its-target-markets",
+      "title": "Create an About section explaining the fractional talent acquisition model and how Talentblaze serves its target markets",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-outlining-key-talent-acquisition-offerings-relevant-to-indian-startups-and-global-firms-entering-india",
+      "title": "Create a Services section outlining key talent acquisition offerings relevant to Indian startups and global firms entering India",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-contact-form-for-potential-clients-to-reach-talentblaze",
+      "title": "Create a Contact section with a contact form for potential clients to reach Talentblaze",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-professional-modern-visual-theme-with-warm-trustworthy-colors-avoiding-blue-and-purple-clean-typography-suitable-for-a-b2b-service-brand-and-cohesive-spacing-and-layout-patterns-throughout-all-sections",
+      "title": "Apply a professional, modern visual theme with warm, trustworthy colors (avoiding blue and purple), clean typography suitable for a B2B service brand, and cohesive spacing and layout patterns throughout all sections",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website for Talentblaze talent acquisition service",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Implement backend storage for contact form submissions with fields for name, email, company name, and inquiry message",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Talentblaze",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Motoko actor defining a contact request storage system with functions to submit, retrieve by ID, and list all contact requests using a Map-based store.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented features (hero, about, services, contact sections, and visual theme) with associated files, components, and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend source files describing each component's purpose and functionality.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark modes using warm amber/orange palette avoiding blue/purple tones.",
+  "frontend/index.html": "HTML entry point for the Talentblaze application with root div and module script reference.",
+  "frontend/src/App.tsx": "Root React component composing Hero, About, Services, Contact, and Footer sections into a single-page layout.",
+  "frontend/src/components/AboutSection.tsx": "About section explaining fractional talent acquisition model with two-column content layout and four value proposition cards featuring icons.",
+  "frontend/src/components/ContactSection.tsx": "Contact form component with validation, backend integration via React Query mutation, success state handling, and contact information cards.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, year, and Caffeine.ai attribution link with UTM parameters derived from hostname.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with background image overlay, Talentblaze logo, headline, CTAs, and trust indicator statistics grid.",
+  "frontend/src/components/ServicesSection.tsx": "React component displaying Talentblaze's service offerings in three categories: core services (recruitment, consulting, process optimization, etc.), startup-specific services, and global services for India market entry.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and manages an ICP backend actor instance based on Internet Identity authentication state, invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom React hook and provider for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for contact form operations: submitting contact requests and fetching all or individual contact requests from the backend actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm amber/orange color palette for light and dark modes, avoiding blue and purple tones.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors using OKLCH color space, Inter font family, custom border radius values, shadows, and animations for UI components.",
+  "project_state.json": "Project metadata tracking Talentblaze website features, requirements, and architectural notes for a fractional talent acquisition service targeting Indian startups and global firms entering India."
+}
